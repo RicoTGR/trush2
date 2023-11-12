@@ -60,7 +60,7 @@
                       pos = $this.offset(),
                       $canvas = $("<canvas/>"),
                       canvas = $canvas.get(0),
-                      size = (options && options.size) ? options.size : 100,
+                      size = (options && options.size) ? options.size : 200,
                       completeRatio = (options && options.completeRatio) ? options.completeRatio : .7,
                       completeFunction = (options && options.completeFunction) ? options.completeFunction : null,
                       parts = [],
